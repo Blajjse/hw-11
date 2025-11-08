@@ -12,6 +12,9 @@ body {
   font-size: 35px;
   font-weight: 500;
 }
+.pane {
+  margin: auto;
+}
 img {
   width: 350px;
   height: 220px;
@@ -29,14 +32,33 @@ img {
   button {
     display: block;
     margin: auto;
-    border: 3px;
-     
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: cyan;
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
   }
-.div {
+  button:hover {
+    background-color: blue;
+    color: cyan;
+    border: 2px solid cyan;
+  }.div {
     width: 350px;
   height: 220px;
-  padding: 30px;
-  border: 2px solid black;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  border: 2px dotted black;
   background-color: green; 
   box-sizing: border-box;
+}
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
